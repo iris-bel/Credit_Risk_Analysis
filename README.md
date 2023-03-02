@@ -28,7 +28,7 @@ Classification Report:
 
 ![Classification_SMOTE.png](Resources/Classification_SMOTE.png)
 
-The accuracy score for this model is slightly higher than the previous oversampling model. However, the precision for high risk loan prediction has not improved, making this model equally ineffective as the previous model. In this case, the sensitivity of the model has also decreased for high risk loans.
+The accuracy score for this model is slightly lower than the previous oversampling model. Additionally, the precision for high risk loan prediction has not improved, making this model equally ineffective as the previous model. In this case, the sensitivity of the model has also decreased for high risk loans.
 
 ### Undersampling: ClusterCentroids
 
@@ -58,7 +58,7 @@ Classification Report:
 
 ![Classification_BalancedRandomForest.png](Resources/Classification_BalancedRandomForest.png)
 
-The BalancedRandomForestClassifier machine learniing model has a significantly higher accuracy score than any of the other models. It also has a higher precision score for predicting high risk loans, although it still only has a precision rate of 3%. Its sensitivity score is also higher than any of the previous models. This model seems to have measurable advantages over the previous models tested.
+The BalancedRandomForestClassifier machine learning model has a significantly higher accuracy score than any of the other models. It also has a higher precision score for predicting high risk loans, although it still only has a precision rate of 3%. Its sensitivity score is also higher than any of the previous models. This model seems to have measurable advantages over the previous models tested.
 
 ### Easy Ensemble AdaBoost Classifier
 
